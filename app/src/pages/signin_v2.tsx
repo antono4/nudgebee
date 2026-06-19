@@ -242,10 +242,9 @@ export default function SignInV2({ providers, samlEnabled, tier }: any) {
       credsPassword: '',
     }));
 
-    const emailPattern = new RegExp('[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}$');
     let hasError = false;
 
-    if (!emailPattern.test(credsUsername)) {
+    if (!EmailRegEx.test(credsUsername)) {
       setHelperText((prev) => ({
         ...prev,
         credsEmail: 'Please enter a valid email address.',
