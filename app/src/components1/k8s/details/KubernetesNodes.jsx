@@ -431,7 +431,7 @@ const KubernetesNodesTable = ({ accountId, heading = 'All Nodes' }) => {
                         <ProgressBar
                           blueVarient={true}
                           capacity={dataItem[0].drilldownQuery?.cpu_capacity ? `${dataItem[0].drilldownQuery?.cpu_capacity}` : 0}
-                          value={Number(r.values[0]).toFixed(2) || 0}
+                          value={(Number(r.values[0]) || 0).toFixed(2)}
                           largeVariant={true}
                           tooltipRequired={true}
                           showCapacity={false}
@@ -483,7 +483,7 @@ const KubernetesNodesTable = ({ accountId, heading = 'All Nodes' }) => {
                         <ProgressBar
                           blueVarient={true}
                           capacity={dataItem[0].drilldownQuery?.memory_capacity ? (dataItem[0].drilldownQuery?.memory_capacity / 1024).toFixed(2) : 0}
-                          value={(Number(r.values[0]) / (1024 * 1024 * 1024)).toFixed(2) || 0}
+                          value={((Number(r.values[0]) || 0) / (1024 * 1024 * 1024)).toFixed(2)}
                           largeVariant={true}
                           tooltipRequired={true}
                           showCapacity={false}
