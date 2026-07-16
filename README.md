@@ -1,5 +1,8 @@
 # Nudgebee
 
+> **Created by Antono**
+
+
 Open-source SRE copilot — observability, FinOps, runbook automation, and incident response across Kubernetes and AWS / Azure / GCP.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
