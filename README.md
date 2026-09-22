@@ -11,7 +11,7 @@
   <a href="https://github.com/antono4/nudgebee"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/nudgebee-blue?logo=github"></a>
   <a href="https://antono4.github.io/nudgebee/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
   <img alt="Files" src="https://img.shields.io/badge/Files-8758-informational">
-  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-22 08:34:30 WIB-lightgrey">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-22 13:45:34 WIB-lightgrey">
 </p>
 
 ---
@@ -65,5 +65,4 @@ Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis pada **2026-09-22 08:34:30 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
-Last updated: 2026-09-22 13:44:28 WIB
+<sub>README ini di-generate otomatis pada **2026-09-22 13:45:34 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
